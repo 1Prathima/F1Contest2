@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(222, 217, 217, 0.817);
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    top:0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+table,th,tbody,td{
+    border-collapse: collapse;
+    border-color: black;
+    border-spacing: 0;
+}
+
+table{
+    width: 80%;
+    height: 140px;
+}
+
+
+.books{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.books h1{
+    margin-left: 100px;
+}
+
+.register{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.register h1{
+    margin-left: 100px;
+}
+
+.form input{
+    width: 80%;
+    margin: 5px;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+button{
+    color: white;
+    background-color: black;
+    width:80%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+

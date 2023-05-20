@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library System</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body style="font-family: 'Roboto', sans-serif;">
+        <header>
+        <nav class="navbar">
+            <a href="#" style="margin-left: 20px;">Library System</a>
+            <ul>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <main>
+            <div class="books">
+                <h1 id="books">Books</h1>
+                <table class="main-table" border="" align="center">
+                    <thead>
+                        <tr>
+                            <th>Book ID</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Genre</th>
+                            <th>Availability</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <a href="#">Book Title 1</a>
+                                <br>
+                                <table border="">
+                                    <tr><td>Publication Date: 2000</td></tr>	
+                                    <tr><td>Page Count: 250</td></tr>
+                                    <tr><td>ISBN: 123-4567890123</td></tr>
+                                </table>
+                            </td>
+                            <td>Author Name 1</td>
+                            <td>Genre 1</td>
+                            <td>Available</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <a href="#">Book Title 2</a>
+                                <br>
+                                <table border="">
+                                    <tr><td>Publication Date: 2005</td></tr>	
+                                    <tr><td>Page Count: 300</td></tr>
+                                    <tr><td>ISBN: 123-4567890456</td></tr>
+                                </table>
+                            </td>
+                            <td>Author Name 2</td>
+                            <td>Genre 2</td>
+                            <td>Not Available</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <a href="#">Book Title 3</a>
+                                <br>
+                                <table border="">
+                                    <tr><td>Publication Date: 2010</td></tr>	
+                                    <tr><td>Page Count: 350</td></tr>
+                                    <tr><td>ISBN: 123-4567890789</td></tr>
+                                </table>
+                            </td>
+                            <td>Author Name 3</td>
+                            <td>Genre 3</td>
+                            <td>Available</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="register">
+                <h1 id="register">Register</h1>
+            <form action="#" method=""post class="form" align="center">
+                <label for="fName">First Name:</label><br>
+                <input id="fName" name="fName" type="text" required>
+                <br>
+
+                <label for="lName">Last Name:</label><br>
+                <input id="lName" name="lName" type="text" required>
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input id="email" name="email" type="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" required>
+                <br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input id="dob" name="dob" type="date" required>
+                <br>
+
+                <label for="">Age:</label><br>
+                <input id="age" name="age" type="number" min="5" max="100" required>
+                <br>
+
+                <label for="password">Password:</label><br>
+                <input id="password" name="password" typr="password" pattern=".{6,}" required>
+                <br>
+
+                <label for="confirmP">Confirm Password:</label><br>
+                <input id="confirmP" name="confirmP" pattern=".{6,}" required>
+                <br>
+
+                <button id="register" value="Register">Register</button>
+            </form>
+            </div>
+        </main>
+
+    </body>
+</html>
